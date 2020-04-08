@@ -32,3 +32,9 @@ download.file(url, tmp_filename)
 dat <- read_csv(tmp_filename)
 file.remove(tmp_filename)
 
+#S1 QUIZ
+help(read_csv)
+url <- "http://mlr.cs.umass.edu/ml/machine-learning-databases/breast-cancer-wisconsin/wdbc.data"
+ex <- read_csv(url, col_names = FALSE)
+ex
+
